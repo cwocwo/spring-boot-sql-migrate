@@ -12,6 +12,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         temp:
           use_jdbc_metadata_defaults: false
+#  liquibase:
+#    changeLog: "classpath:/db/changelog/db.changelog-master.xml"
 #  h2:
 #    console:
 #      enabled: true
